@@ -19,7 +19,7 @@ while True:
         exit()
 
     operation = input('Enter the operation to perform: ').strip()
-
+    print('LOOOOL')
     if operation == 'add' or operation == '+':
         print(add(first_number, second_number))
     elif operation == 'sub' or operation == '-':
